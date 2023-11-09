@@ -15,7 +15,7 @@ from {{ source('dbo_dbo', 'PERSONS') }}
 
 {{
   config(
-    post_hook = "CALL DEMO()"
+    post_hook = "CALL GREENSLATE.dev.DEMO()"
  
   )
 }}
