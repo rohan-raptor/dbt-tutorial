@@ -20,6 +20,11 @@ with source_data as (
 select *
 from source_data
 
+select
+  TOP 1
+
+from {{ source('dbo_dbo', 'PERSONS') }}
+
 {{
   config(
     post_hook = "select 1"
