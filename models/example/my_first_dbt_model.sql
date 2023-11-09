@@ -15,7 +15,7 @@ from {{ source('dbo_dbo', 'PERSONS') }}
 
 {{
   config(
-    post_hook = "select 1"
+    post_hook = "CALL DEMO()"
  
   )
 }}
