@@ -21,9 +21,9 @@ select *
 from source_data
 
 select
-  TOP 1
+  TOP 1 *
 
-from {{ source('DBO_DBO', 'PERSONS') }}
+from {{ source('dbo_dbo', 'PERSONS') }}
 
 {{
   config(
