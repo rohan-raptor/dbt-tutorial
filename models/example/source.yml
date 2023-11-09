@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: gs
+    database: pc_fivetran_db  
+    schema: public  
+    tables:
+      - name: MY_FIRST_DBT_MODEL
+
+  - name: dbo_dbo
+    tables:
+      - name: PERSONS
