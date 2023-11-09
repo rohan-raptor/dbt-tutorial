@@ -23,7 +23,7 @@ from source_data
 select
   TOP 1
 
-from {{ source('dbo_dbo', 'PERSONS') }}
+from {{ source('dbo', 'PERSONS') }}
 
 {{
   config(
