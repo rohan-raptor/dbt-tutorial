@@ -3,9 +3,9 @@ version: 2
 sources:
   - name: gs
     database: pc_fivetran_db  
-    schema: public  
+    schema: dbo_dbo 
     tables:
-      - name: MY_FIRST_DBT_MODEL
+      - name: PERSONS
 
   - name: dbo_dbo
     tables:
