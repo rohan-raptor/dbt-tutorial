@@ -6,7 +6,12 @@ sources:
     schema: dbo_dbo 
     tables:
       - name: PERSONS
+      - name: TEST
+
 
   - name: dbo_dbo
     tables:
       - name: PERSONS
+      - name: TEST
+
+
