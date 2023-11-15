@@ -2,4 +2,4 @@
 
 
 select *
-from {{ source('dbo_dbo', 'TEST') }}
+from {{ source('dbo_dbo', 'TES') }}
