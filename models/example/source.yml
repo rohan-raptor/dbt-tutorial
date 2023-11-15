@@ -12,6 +12,6 @@ sources:
   - name: dbo_dbo
     tables:
       - name: PERSONS
-      - name: TEST
+      - name: TES
 
 
